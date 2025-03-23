@@ -16,9 +16,19 @@ sizeButton.forEach((sizeButton) => {
   });
 });
 
-const revealContainer = document.querySelector("main");
-const revealElement = document.querySelectorAll(".reveal");
+// const revealContainer = document.getElementById("card");
+// const hide = document.querySelectorAll(".hide");
 
-revealContainer.addEventListener("mouseover", () => {
-  revealElement.classList.style.display = "block";
-});
+// revealContainer.addEventListener("mouseenter", () => {
+//   hide.forEach((hide) => {
+//     hide.style.height = "auto";
+//     hide.style.display = "block";
+//   });
+// });
+
+// revealContainer.addEventListener("mouseleave", () => {
+//   hide.forEach((hide) => {
+//     hide.style.height = "0%";
+//     hide.style.display = "none";
+//   });
+// });

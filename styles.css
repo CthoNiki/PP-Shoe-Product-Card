@@ -255,6 +255,7 @@ button {
   color: var(--colorTertiary);
   border-radius: 4px;
   padding: 0.5rem;
+  transition: all 0.2s;
 }
 
 .addToCart:hover {
@@ -263,8 +264,7 @@ button {
 }
 
 .addToCart:active {
-  background-color: var(--colorTertiary);
-  color: var(--colorPrimary);
+  scale: 1.05;
 }
 
 /*Animations*/
